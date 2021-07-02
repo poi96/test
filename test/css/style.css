@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    margin-top: 90px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cardsMenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: 2px solid #E2E2E2;
+    height: 100%;
+}
+
+.cardImg {
+    width: 300px;
+    height: 205px;
+}
+
+.cardText {
+    max-width: 250px;
+    margin-top: 30px;
+    margin-left: 25px;
+    
+}
+
+.cardTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.cardInfo {
+    font-size: 15px;
+    color: #666666;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.cardPriceBold {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.cardPriceText {
+    font-size: 20px;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+.cardBtn {
+    width: 50px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background: #4ED17B;
+    border-radius: 4px;   
+}
